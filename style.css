@@ -6,13 +6,10 @@
             --white: #ffffff;
             --text-dark: #0f172a;
             --text-muted: #64748b;
-            /* Gradient Background: Putih ke Biru Muda */
             --gradient-ocean: linear-gradient(135deg, #ffffff 0%, #f0f9ff 50%, #e0f2fe 100%);
             --shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
             --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
-
-        /* --- 2. RESET STYLE --- */
         * {
             margin: 0;
             padding: 0;
@@ -272,3 +269,4 @@
             .res-box { grid-template-columns: 1fr; padding: 2rem; }
             nav { display: none; }
         }
+  @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
