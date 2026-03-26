@@ -39,7 +39,6 @@
         </div>
     </section>
 
-    <!-- PROMO SECTION (Campuran Biru) -->
     <section class="promo-section reveal" id="promo">
         <div class="promo-card promo-blue-light">
             <h3>Diskon 50%</h3>
@@ -65,7 +64,6 @@
             <p>Pilih dari 16 hidangan laut terbaik kami.</p>
         </div>
         <div class="menu-grid" id="menu-container">
-            <!-- Diisi via JS Loop di bawah -->
         </div>
     </section>
 
@@ -86,7 +84,7 @@
     </section>
 
     <footer>
-        <p>OCEAN BITE. &copy; 2024 - Portofolio Final Project</p>
+        <p>OCEAN BITE. &copy; Matrix Sync</p>
     </footer>
 
     <!-- MODAL KERANJANG -->
@@ -96,8 +94,7 @@
                 <h2 style="font-weight: 800; color: var(--primary);">Pesanan Kamu</h2>
                 <button onclick="toggleCart()" style="background:none; border:none; font-size: 2rem; cursor:pointer;">&times;</button>
             </div>
-
-            <!-- Bagian ini akan berisi DAFTAR MENU yang dibeli -->
+            
             <div id="cartList" class="cart-items-list">
                 <p style="text-align: center; opacity: 0.5;">Belum ada pesanan...</p>
             </div>
@@ -119,10 +116,10 @@
                     <textarea class="form-control" id="addr" placeholder="Alamat lengkap..."></textarea>
                 </div>
                 <input type="text" class="form-control" id="custName" placeholder="Nama Pemesan">
-                
                 <button class="btn btn-primary" style="width: 100%; padding: 20px;" onclick="checkout()">Konfirmasi Pesanan</button>
             </div>
         </div>
     </div>
+    <script src="main.js" defer></script>
 </body>
 </html>
